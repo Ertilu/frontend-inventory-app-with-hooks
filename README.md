@@ -30,7 +30,7 @@ Quick start options:
 - `npm/yarn install frontend-inventory-app-with-hooks`
 - Clone the backend server: `https://github.com/Ertilu/restful-api-inventory-app.git`.
 - `npm/yarn install restful-api-inventory-app`
-- Import database "db_nventory.sql".
+- Import database "db_inventory.sql".
 - Run the backend `node app`.
 - Run the app `npm start`.
 
