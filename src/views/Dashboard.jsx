@@ -104,7 +104,7 @@ const Dashboard = props => {
 	}
 
 	useEffect(() => {
-		getProducts();
+		getProducts(queryState);
 	}, [queryState, deleted]);
 
 	const pageNum = pageNumber();
