@@ -4,7 +4,7 @@
 
 ![version](https://img.shields.io/badge/version-1.1.0-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/paper-dashboard-react.svg?maxAge=2592000)]() [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/paper-dashboard-react.svg?maxAge=2592000)]()  [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-This app help you to manage your inventory you can add your product, edit product, or delete product with this app.
+This repo related to previous project https://github.com/Ertilu/frontend-inventory-app but in this project use hooks for management state in CRUD Feature of category.
 
 ## Created with
 
@@ -16,7 +16,6 @@ This app help you to manage your inventory you can add your product, edit produc
 
 * [How to run the app](#How-to-run-the-app)
 * [Features](#features)
-* [File Structure](#file-structure)
 * [Browser Support](#browser-support)
 * [Resources](#resources)
 * [Licensing](#licensing)
@@ -70,77 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 - Edit product
 - Delete product
 - Add product
-
-
-## File Structure
-
-Within the download you'll find the following directories and files:
-
-```
-├── CHANGELOG.md
-├── ISSUE_TEMPLATE.md
-├── LICENSE.md
-├── README.md
-├── docs
-│   └── documentation.html
-├── jsconfig.json
-├── package.json
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-└── src
-    ├── index.js
-    ├── logo-white.svg
-    ├── logo.svg
-    ├── routes.js
-    ├── components
-    |   |── auth
-    │   │   |── authHelper.js
-    │   │   └── withAuth.js
-    │   ├── FixedPlugin
-    │   │   └── FixedPlugin.jsx
-    │   ├── Footer
-    │   │   └── Footer.jsx
-    │   ├── Navbars
-    │   │   └── DemoNavbar.jsx
-    │   └── Sidebar
-    │       └── Sidebar.jsx
-    ├── layouts
-    │   └── Admin.jsx
-    ├── variables
-    │   ├── charts.jsx
-    │   ├── general.jsx
-    │   └── icons.jsx
-    ├── views
-    |   ├── addProduct.jsx
-    │   ├── Dashboard.jsx
-    │   ├── login.css
-    │   ├── login.jsx
-    │   ├── productItem.jsx
-    │   ├── signup.jsx
-    │   └── User.jsx
-    │   ├── Version.jsx
-    └── assets
-        ├── css
-        │   ├── paper-dashboard.css
-        │   ├── paper-dashboard.css.map
-        │   └── paper-dashboard.min.css
-        ├── demo
-        ├── fonts
-        ├── github
-        ├── img
-        │   └── faces
-        └── scss
-            ├── paper-dashboard
-            │   ├── cards
-            │   ├── mixins
-            │   ├── plugins
-            │   └── react
-            │       ├── custom
-            │       └── react-differences.scss
-            └── paper-dashboard.scss
-```
 
 ## Browser Support
 
